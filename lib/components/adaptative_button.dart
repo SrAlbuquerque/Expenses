@@ -6,7 +6,10 @@ class AdaptativeButton extends StatelessWidget {
   final String label;
   final Function onPressed;
 
-  AdaptativeButton({this.label, this.onPressed});
+  AdaptativeButton({
+    this.label,
+    this.onPressed,
+  });
 
   @override
   Widget build(BuildContext context) {
